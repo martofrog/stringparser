@@ -11,6 +11,22 @@ public class Odds {
 
 	public Odds() {}
 
+	public Double getNum() {
+		return num;
+	}
+
+	public void setNum(Double num) {
+		this.num = num;
+	}
+
+	public Double getDen() {
+		return den;
+	}
+
+	public void setDen(Double den) {
+		this.den = den;
+	}
+
 	private String getFractionalOdds() {
 		// returns fractional odds as string
 		return null;
