@@ -33,7 +33,7 @@ public class Odds {
 	}
 
 	private Double getDecimalOdds() {
-		// returns decimal price as double round((num/den)+1, 2)
+		// returns decimal price as double roundDown((num/den)+1, 2)
 		return null;
 	}
 
