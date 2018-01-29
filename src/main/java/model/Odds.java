@@ -9,7 +9,11 @@ public class Odds {
 
 	private Double den;
 
-	public Odds() {}
+	private String fractPrice;
+
+	public Odds(String s) {
+		fractPrice = s;
+	}
 
 	public Double getNum() {
 		return num;
@@ -27,12 +31,12 @@ public class Odds {
 		this.den = den;
 	}
 
-	private String getFractionalOdds() {
+	public String getFractionalOdds() {
 		// returns fractional odds as string
 		return null;
 	}
 
-	private Double getDecimalOdds() {
+	public Double getDecimalOdds() {
 		// returns decimal price as double roundDown((num/den)+1, 2)
 		return null;
 	}
