@@ -11,8 +11,8 @@ public class Odds {
 
 	private String fractPrice;
 
-	public Odds(String s) {
-		fractPrice = s;
+	public Odds(String fractPrice) {
+		this.fractPrice = fractPrice;
 	}
 
 	public Double getNum() {
@@ -37,7 +37,8 @@ public class Odds {
 	}
 
 	public Double getDecimalOdds() {
-		// returns decimal price as double roundDown((num/den)+1, 2)
+		// Returns decimal price as double rounded down to two decimal places
+		// Use any rounding method of your preference e.g. roundDownMethod(num/den + 1, 2)
 		return null;
 	}
 
