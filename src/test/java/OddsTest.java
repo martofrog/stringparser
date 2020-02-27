@@ -17,7 +17,7 @@ public class OddsTest {
 	 * Aim of this task is to provide a small and solid module which parses a string and returns a valid Odds
 	 * object if possible.
 	 *
-	 * Examples of invalid strings: “0/1”, “SP/1”, “2/3/4”,  “23*4”
+	 * Examples of invalid strings: "0/1", "SP/1", "2/3/4",  "23*4"
 	 *
 	 **/
 
